@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useNavigate } from "react-router";
 import "../App.css";
-import BaseUrl from "../util/BaseUrl";
 
 const HomePage = () => {
   const navigate = useNavigate();
-  const [userData, setUserData] = useState();
+  // const [userData, setUserData] = useState();
   const logOut = (e) => {
     e.preventDefault();
     navigate("/login");
@@ -50,9 +49,7 @@ const HomePage = () => {
         <button className="btn-l" onClick={logOut}>
           Logout
         </button>
-        <div id="typewriter">
-          Hey, {userData?.name?.givenName || userData?.displayName}
-        </div>
+        <div id="typewriter">Welcome</div>
         <br />
         <div className="about">
           <p>
