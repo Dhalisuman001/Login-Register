@@ -3,7 +3,7 @@ import SignIn from "./Auth/SignIn";
 import SignUp from "./Auth/SignUp";
 import GlobalState from "./Context/GlobalState";
 import Home from "./Home/Home";
-import Home2 from "./Home/Home2";
+import HomePage from "./Home/HomePage";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index path="/" element={<Home />} />
-          <Route index path="/home" element={<Home2 />} />
+          <Route index path="/home" element={<HomePage />} />
           <Route index path="/login" element={<SignIn />} />
           <Route index path="/register" element={<SignUp />} />
         </Routes>
