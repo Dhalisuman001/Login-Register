@@ -11,9 +11,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index path="/" element={<Home />} />
-          <Route index path="*" element={<HomePage />} />
-          <Route index path="/login" element={<SignIn />} />
-          <Route index path="/register" element={<SignUp />} />
+          <Route path="/page" element={<HomePage />} />
+          <Route path="*" element={<HomePage />} />
+          <Route path="/login" element={<SignIn />} />
+          <Route path="/register" element={<SignUp />} />
         </Routes>
       </BrowserRouter>
     </GlobalState>
