@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
+
 import "../App.css";
 import BaseUrl from "../util/BaseUrl";
 
@@ -56,15 +57,10 @@ const HomePage = () => {
         <br />
         <div className="about">
           <p>
-            Education is the most powerful catalyst for mental, physical and
-            social wellbeing. Kolkata Hormone Foundation conducts patient
-            education programs to incorporate lifestyle modification practices
-            which promote a genuine sense of integration & harmony among
-            diabetic patient. It is also the objective of the foundation, to
-            encourage practising doctors to keep themselves updated on current
-            developments in medical practice (specially in the field of
-            Diabetology & Endocrinology), so as to maintain a high professional
-            standard.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis
+            magnam nihil, modi necessitatibus illum deleniti animi dolore quasi
+            deserunt quo nobis nisi corrupti quisquam delectus, architecto
+            doloremque dolores minus eveniet enim voluptatem hic dolor!
           </p>
         </div>
       </div>

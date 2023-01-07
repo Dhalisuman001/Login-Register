@@ -1,6 +1,5 @@
 .banner--image img {
   z-index: 0;
-  margin: 20px;
 }
 
 .main-div {
@@ -10,7 +9,12 @@
   justify-content: center;
   vertical-align: middle;
 }
-
+.div1 {
+  margin-top: 40px;
+  justify-content: center;
+  align-self: center;
+  width: 80%;
+}
 .main-div .div2 {
   margin: 30px;
   display: flex;
